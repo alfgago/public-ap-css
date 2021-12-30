@@ -1,0 +1,103 @@
+
+.vjs-control-bar {
+    -webkit-transform: none !important;
+        -ms-transform: none !important;
+            transform: none !important;
+}
+
+.vjs-progress-control.vjs-control {
+    top: 50% !important;
+    width: calc(100% - 300px);
+    left: 80px;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+    height: 2px !important;
+    background: none;
+}
+
+.vjs-time-control.vjs-time-divider {
+    display: none;
+}
+
+.video-js .vjs-control {
+    -webkit-box-ordinal-group: 6;
+        -ms-flex-order: 5;
+            order: 5;
+    margin: 0 !important;
+}
+
+.video-js .vjs-play-control {
+    -webkit-box-ordinal-group: 1;
+        -ms-flex-order: 0;
+            order: 0;
+}
+
+.vjs-current-time.vjs-time-control.vjs-control {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+}
+
+.video-js .vjs-custom-control-spacer {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+}
+
+.vjs-duration.vjs-time-control.vjs-control {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+}
+
+.video-js .vjs-volume-panel {
+    -webkit-box-ordinal-group: 5;
+        -ms-flex-order: 4;
+            order: 4;
+}
+
+.video-js .vjs-picture-in-picture-control {
+    -webkit-box-ordinal-group: 8;
+        -ms-flex-order: 7;
+            order: 7;
+}
+
+.video-js .vjs-fullscreen-control {
+    -webkit-box-ordinal-group: 7;
+        -ms-flex-order: 6;
+            order: 6;
+}
+
+.video-js .vjs-load-progress {
+    background: #000;
+}
+
+.video-js .vjs-load-progress div {
+    background: rgba(255,255,255,0.3);
+}
+
+.vjs-big-play-button:active, 
+.vjs-big-play-button:hover, 
+.video-js:hover 
+.vjs-big-play-button, 
+.video-js:not(.vjs-ad-playing) .vjs-play-progress, 
+.video-js 
+.vjs-volume-level {
+    background-color: #fff !important;
+}
+
+.vjs-play-progress.vjs-slider-bar::after {
+    content: '';
+    position: absolute;
+    right: -5px;
+    top: -4px;
+    height: 10px;
+    width: 10px;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.vjs-play-progress.vjs-slider-bar {
+    position: relative;
+}

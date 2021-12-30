@@ -101,3 +101,37 @@
 .vjs-play-progress.vjs-slider-bar {
     position: relative;
 }
+
+.video-js:hover .vjs-big-play-button,
+.video-js .vjs-big-play-button {
+    background: rgba(0,0,0,0.5) !important;
+    border: 2px solid #fff !important;
+    width: 63px;
+    height: 63px;
+    font-size: 22px;
+    traansition: .5s ease all;
+}
+
+.video-js:hover .vjs-big-play-button {
+    background: rgba(0,0,0,0.3) !important;
+}
+
+.vjs-big-play-button span.vjs-icon-placeholder {
+    font-size: 22px;
+    width: 22px;
+    line-height: 22px;
+    height: 22px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+}
+
+.video-js .vjs-volume-panel .vjs-volume-control {
+    position: absolute !important;
+    background: #000;
+    left: 3.5em;
+    z-index: 3;
+}
